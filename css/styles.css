@@ -48,10 +48,11 @@ nav ul li a{
 /* ------banner part css start-------- */
 
 
-/* .banner-container{
+.banner-container{
     display: flex;
     justify-content: space-between;
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 50px;
     align-items: center;
@@ -87,15 +88,13 @@ nav ul li a{
 }
 .banner-img{
     background-image: url(../images/Circle\ design.svg);
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     height: 475px;
     width: 475px;
 }
 .banner-img img{
     width: 100%;
-} */
+}
 
 
 
@@ -136,5 +135,32 @@ nav ul li a{
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
+    }
+    .banner-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        order: 1;
+        margin-top: 30px;
+    }
+    .banner-title{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .banner-img{
+        width: 257px;
+        height: 257px;
+        
+    }
+    .banner-description {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .banner-btn{
+        font-weight: 500;
     }
 }
