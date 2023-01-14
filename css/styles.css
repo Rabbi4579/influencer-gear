@@ -201,6 +201,7 @@ nav ul li a {
   font-size: 38px;
   font-weight: 700;
 }
+
 .feature-description {
   color: #6c6c6c;
   font-size: 16px;
@@ -218,8 +219,39 @@ nav ul li a {
   font-weight: 700;
   font-size: 16px;
 }
-
 /* -----featured part css end------- */
+
+/* -----footer part css start------- */
+.footer{
+    padding: 50px 0;
+    background: #0A0826;
+    margin-top: 100px;
+    
+}
+
+.footer-container{
+    
+   width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-header{
+    color: #FFFFFF;
+    font-weight: 700;
+font-size: 24px;
+margin-bottom: 10px;
+
+}
+.footer-description, .footer-sub-title{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+/* -----footer part css end------- */
+
 /* -------media queries------- */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .header-container {
@@ -323,5 +355,12 @@ nav ul li a {
   }
   .feature-description{
     padding: 10px;
+  }
+  .feature-left img{
+    width: 299px;
+  }
+  .featre-title{
+    font-weight: 700;
+font-size: 24px;
   }
 }
