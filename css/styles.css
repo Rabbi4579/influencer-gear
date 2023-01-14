@@ -118,11 +118,12 @@ nav ul li a {
 .collection-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 40px;
+    grid-column-gap: 45px;
     grid-row-gap: 30px;
 }
 .collection {
-  width: 1100px;
+  max-width: 1140px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -194,6 +195,13 @@ nav ul li a {
     order: 1;
     margin-top: 30px;
   }
+  /* collection section media */
+  .collection-items{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .collection-item{
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -241,5 +249,8 @@ nav ul li a {
   /* collection section media */
   .collection-items{
     grid-template-columns: repeat(1, 1fr);
+  }
+  .collection-item{
+    margin: 0 auto;
   }
 }
